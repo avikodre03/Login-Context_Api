@@ -1,23 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import LoginPage from './Components/LoginPage/LoginPage';
+
+import NavBar from './Components/NavBar/NavBar';
+import Home from './Components/Home/Home';
+
+import { useContext } from 'react';
+
+import { mainContext } from './ContextApi/Context';
+
 
 function App() {
+ const { isloggedIn } = useContext(mainContext);
+
   return (
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   
+   
+   {isloggedIn ? (
+        <div className='mainContainer'>
+          <NavBar />
+          <Home />
+        </div>
+      ) : (
+        <LoginPage />
+      )}
     </div>
   );
 }

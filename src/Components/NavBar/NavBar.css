@@ -1,0 +1,56 @@
+.Navbar {
+    height: 15%;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.747);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 3rem;
+    background-color: black;
+}
+
+.Navbar h2 {
+    color: white;
+    margin-right: 30rem;
+
+}
+
+.Navbar a {
+    margin: 0 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.Navbar button {
+    cursor: pointer;
+    margin: 0 2rem;
+    height: 30px;
+    width: 60px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+.Navbar P {
+    font-size: 1.2rem;
+    color: orange;
+    font-weight: bold;
+
+
+}
+
+.Navbar P span {
+
+    margin-left: 5px;
+
+
+}
+
+.Navbar P svg {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-right: 2px;
+}

@@ -1,0 +1,53 @@
+.LoginPage {
+    /* border: 2px solid red; */
+    height: 70%;
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.userName {
+    width: 90%;
+    /* border: 2px solid red; */
+    height: 15%;
+}
+
+.password {
+    width: 90%;
+    /* border: 2px solid red; */
+    height: 15%;
+}
+
+.userName input,
+.password input {
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.LoginPage button {
+    width: 50%;
+    height: 12%;
+    font-size: 1.2rem;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.LoginPage p {
+    color: #1877f4;
+}

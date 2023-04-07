@@ -1,0 +1,14 @@
+.home {
+    height: 85%;
+    width: 100%;
+    padding: 2rem;
+}
+
+.home h1 {
+    margin: 1rem 0;
+    color: red;
+}
+.home p {
+   font-size: 1.2rem;
+   line-height: 1.5;
+}
