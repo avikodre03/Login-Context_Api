@@ -10,10 +10,10 @@ const {setisloggedIn,userName}= useContext(mainContext);
     
     <div className='Navbar'>
       <h2>React Context</h2>
-      <a href=''>Home</a>
-      <a href=''>Profile</a>
-      <a href=''>Product</a>
-      <a href=''>Support</a>
+      <a >Home</a>
+      <a >Profile</a>
+      <a >Product</a>
+      <a >Support</a>
 
       <button
         onClick={() => {
